@@ -10,6 +10,7 @@ glimpse(data)
 # show incomplete data
 data[!complete.cases(data),]
 
+
 # create subsets
 spanish_data <- data[data$country == 'Spain',]
 german_data <- data[data$country == 'Germany',]
